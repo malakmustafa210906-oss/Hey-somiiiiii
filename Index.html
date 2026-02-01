@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Cutie 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" autoplay loop>
+  <source src="intro.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container" id="page1">
+  <h2>Hey My dear Cutie... 💕</h2>
+  <p>
+    This Galentine I want to confess something serious...<br><br>
+    It is that..<br>
+    <strong>I love you so much Shambhavi 🌻👀</strong>
+  </p>
+  <button onclick="goToPage2()">Next 💌</button>
+</div>
+
+<div class="container hidden" id="page2">
+  <h2>Will you be my Valentine babo? 🥹💖</h2>
+  <div class="buttons">
+    <button id="yesBtn" onclick="yesClicked()">Yes 💞</button>
+    <button id="noBtn" onmouseover="moveNo()">No 😶</button>
+  </div>
+</div>
+
+<div class="container hidden" id="page3">
+  <h2>I knew it 🥹🥹🥹🥹🥹🥹💋💋💋🎀🎀🎀🎀🫀🫀🫁🫁🫁</h2>
+  <img src="cat.gif" class="cat" alt="cute cat">
+</div>
+
+<audio id="finalMusic">
+  <source src="fly-me-to-the-moon-hum.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
